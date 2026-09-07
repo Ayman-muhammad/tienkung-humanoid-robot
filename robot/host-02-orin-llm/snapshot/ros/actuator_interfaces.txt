@@ -1,0 +1,23 @@
+=== ACTUATOR INTERFACES ===
+--- /head/cmd_pos ---
+bodyctrl_msgs/msg/CmdSetMotorPosition
+--- /head/cmd_vel ---
+bodyctrl_msgs/msg/CmdSetMotorSpeed
+--- /arm/cmd_pos ---
+bodyctrl_msgs/msg/CmdSetMotorPosition
+--- /arm/cmd_vel ---
+bodyctrl_msgs/msg/CmdSetMotorSpeed
+--- /leg/cmd_pos ---
+bodyctrl_msgs/msg/CmdSetMotorPosition
+--- /leg/cmd_vel ---
+bodyctrl_msgs/msg/CmdSetMotorSpeed
+--- /waist/cmd_pos ---
+bodyctrl_msgs/msg/CmdSetMotorPosition
+--- /waist/cmd_vel ---
+bodyctrl_msgs/msg/CmdSetMotorSpeed
+--- /inspire_hand/ctrl/left_hand ---
+sensor_msgs/msg/JointState
+--- /inspire_hand/ctrl/right_hand ---
+sensor_msgs/msg/JointState
+--- /hric/robot/cmd_vel ---
+geometry_msgs/msg/TwistStamped
