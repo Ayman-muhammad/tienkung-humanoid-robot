@@ -1,0 +1,22 @@
+=== HOST (SANITIZED SNAPSHOT) ===
+nvidia-desktop
+ Static hostname: nvidia-desktop
+Operating System: Ubuntu 22.04.4 LTS
+          Kernel: Linux 5.15.148-tegra
+    Architecture: arm64
+ Hardware Vendor: NVIDIA
+  Hardware Model: NVIDIA Jetson AGX Orin Developer Kit
+Linux nvidia-desktop 5.15.148-tegra #1 SMP PREEMPT Mon Dec 2 13:41:00 CST 2024 aarch64 aarch64 aarch64 GNU/Linux
+PRETTY_NAME="Ubuntu 22.04.4 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.4 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+
+NOTE: Machine ID and Boot ID intentionally removed before publication.
