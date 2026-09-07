@@ -1,0 +1,25 @@
+header:
+  stamp:
+    sec: 1788803666
+    nanosec: 404297393
+  frame_id: head
+status:
+- name: 1
+  pos: 0.0004734992980957031
+  speed: -0.0003204345703125
+  current: -0.0640869140625
+  temperature: 45.0
+  error: 0
+- name: 2
+  pos: 0.002490997314453125
+  speed: 0.0009613037109375
+  current: -0.0518798828125
+  temperature: 50.0
+  error: 0
+- name: 3
+  pos: -0.0022110939025878906
+  speed: -0.0003204345703125
+  current: 0.0396728515625
+  temperature: 50.0
+  error: 0
+---
