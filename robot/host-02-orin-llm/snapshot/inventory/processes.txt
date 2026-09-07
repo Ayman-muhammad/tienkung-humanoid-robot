@@ -1,0 +1,26 @@
+=== PROCESSES (SANITIZED RELEVANT SNAPSHOT) ===
+USER         PID    PPID     ELAPSED CMD
+root           1       0    06:12:00 /sbin/init 2
+root         279       1    06:11:51 /lib/systemd/systemd-journald
+root         584       1    06:11:49 /usr/sbin/haveged --Foreground --verbose=1
+systemd+     588       1    06:11:49 /lib/systemd/systemd-resolved
+systemd+     589       1    06:11:49 /lib/systemd/systemd-timesyncd
+root         629       1    06:11:47 /usr/sbin/NetworkManager --no-daemon
+root         630       1    06:11:47 /bin/bash /opt/PARTITIONS/entry/disk_manage/init.sh
+root        1020     630    06:11:45 ./disk_manage -c ../config/disk_manage.json
+root        1023       1    06:11:44 /usr/sbin/nvargus-daemon
+root        1026       1    06:11:44 /usr/sbin/nvs-service
+root        1072       1    06:11:44 /usr/sbin/cron -f -P
+root        1124       1    06:11:44 /usr/sbin/gdm3
+root        1133       1    06:11:44 sshd: /usr/sbin/sshd -D [listener]
+root        1223       1    06:11:44 /usr/sbin/nvphsd
+root        1562     782    06:11:44 /usr/bin/rt_server
+nvidia      1992       1    06:11:39 /lib/systemd/systemd --user
+nvidia      1999    1992    06:11:39 /usr/bin/pipewire
+nvidia      2000    1992    06:11:39 /usr/bin/pipewire-media-session
+ollama     39917       1    04:40:27 /usr/bin/ollama serve
+root       77928       1    03:07:25 /usr/bin/python3 -c from ros2cli.daemon.daemonize import main; main() --name ros2-daemon --ros-domain-id 0 --rmw-implementation rmw_fastrtps_cpp
+
+ROS/robot processes of interest from the captured process table were not individually identifiable by executable path in this snapshot.
+
+NOTE: Full kernel-thread/process table omitted from public snapshot to reduce operational noise and unnecessary host fingerprinting. PIDs and session-specific process entries are not treated as stable architecture identifiers.
